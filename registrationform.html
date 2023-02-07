@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>MDHL</title>
+</head>
+<body>
+    <header class="header__container">
+        <img src="./assets/images/LogoMightyducks-01.png" alt="" class="header__logo">
+        <img src="./assets/images/hockey3.jpg" alt="" class="header__img">
+        <h1 class="header__title">Mighty Ducks Hockey League</h1>
+        <nav>
+            <ul class="menu__links">
+                <li class="menu__link"><a href="./index.html">Home</a></li>
+                <li class="menu__link"><a href="./about.html">About</a></li>
+                <li class="menu__link"><a href="./contact.html">Contact</a></li>
+                <li class="menu__link"><a href="./games.html">Games</a></li>
+                <li class="menu__link"><a href="./policies.html">Policies</a></li>
+                <li class="menu__link"><a href="#">Registration Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="./show_data.html" method="get" class="form">
+
+        <h1 class="form__title">Registration Form</h1>
+        <fieldset class="form__person form__inline ">
+            <legend>Name:</legend>
+            <label for="fname">Player's First Name:</label>
+            <input type="text" name="fname" id="fname">
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname">
+        </fieldset>
+
+        <fieldset class="form__address form__inline">
+            <legend>Address</legend>
+            <label for="street">Street Address:</label>
+            <input type="text" name="street" id="street">
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city">
+            <label for="code">Zip Code:</label>
+            <input type="number" name="code" id="code">
+        </fieldset>
+
+
+    </form>
+</body>
+
+</html>
