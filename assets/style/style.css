@@ -46,7 +46,7 @@ p {
 }
 
 .header__img {
-    width: 75vw;
+    width: 100%;
 }
 
 .header__title {
@@ -64,20 +64,24 @@ p {
 .menu__link {
     margin: 0 1rem;
     list-style: none;
-    background-color: darkblue;
+    background-color: rgb(1, 1, 143);
     border-radius: 12px;
     padding: 0.5rem 1rem;
 }
-
+.menu__link:hover{
+    background-color: rgb(65, 65, 204);
+    box-shadow: 0px 15px 20px rgba(217, 217, 226, 0.4);
+    transform: translateY(-7px);
+}
 a {
     color: aliceblue;
     height: .375rem;
     text-decoration: none;
 
+
 }
 
 main {
-    display: flex;
     height: auto;
     padding: 2rem;
     margin: 2rem auto;
@@ -117,7 +121,7 @@ td {
 }
 
 form {
-    width: 75%;
+    width: 100%;
     margin: 2rem auto;
 }
 
@@ -199,5 +203,6 @@ iframe {
     width: 30vw;
     height: 30vw;
     margin: 1rem;
-    border-radius: 2rem;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 5px #443e3e
 }
