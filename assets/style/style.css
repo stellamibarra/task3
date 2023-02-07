@@ -3,17 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-h2{
-    font-size:xx-large;
+
+h2 {
+    font-size: xx-large;
     margin: 2rem 0rem 0rem .5rem;
 }
-h3{
+
+h3 {
     margin: 2rem 1rem;
 }
-h4{
+
+h4 {
     margin: 2rem .5rem;
 }
-p{
+
+p {
     text-align: justify;
 
 }
@@ -71,7 +75,9 @@ a {
     text-decoration: none;
 
 }
-main{
+
+main {
+    display: flex;
     height: auto;
     padding: 2rem;
     margin: 2rem auto;
@@ -98,16 +104,19 @@ footer a {
     margin: .3rem 0;
 }
 
-table{
+table {
     margin: 4rem auto;
 }
-th{
+
+th {
     width: 12rem;
 }
-td{
-width: 12rem;
+
+td {
+    width: 12rem;
 }
-form{
+
+form {
     width: 75%;
     margin: 2rem auto;
 }
@@ -157,7 +166,7 @@ label {
 
 input {
     margin: 0 0 .7rem .5rem;
-    
+
 }
 
 .form__button {
@@ -184,4 +193,11 @@ input {
     transform: translateY(-7px);
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8);
 
+}
+
+iframe {
+    width: 30vw;
+    height: 30vw;
+    margin: 1rem;
+    border-radius: 2rem;
 }
